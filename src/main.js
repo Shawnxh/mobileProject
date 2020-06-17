@@ -141,7 +141,7 @@ let router = new VueRouter({
         { name:'goods.list',path:'/goods/list', component:GoodsList}, //商品列表
         { name:'goods.detail',path:'/goods/detail',component:GoodsDetail}, //商品详情
         { name:'goods.comment',path:'/goods/comment',component:GoodsComment},//商品评论
-        { name:'goods.pictureInfo',path:'/goods/pictureinfo',component:NewsDetail},//图文介绍
+        { name:'goods.pictureInfo',path:'/goods/pictureinfo',component:NewsDetail},//图文介绍==新闻详情
     ]
 });
 
